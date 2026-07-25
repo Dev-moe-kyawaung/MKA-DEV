@@ -1,0 +1,39 @@
+{
+  "name": "moe-kyaw-aung-portfolio",
+  "version": "1.0.0",
+  "description": "Ultra Premium Portfolio Website for Moe Kyaw Aung - Senior Android Developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080",
+    "deploy": "gh-pages -d .",
+    "lint": "eslint *.html",
+    "validate": "html-validator --file=index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-moe-kyawaung/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "android-developer",
+    "kotlin",
+    "jetpack-compose",
+    "cyberpunk-design",
+    "responsive-website",
+    "seo-optimized"
+  ],
+  "author": {
+    "name": "Moe Kyaw Aung",
+    "email": "moekyawaung@programmer.net",
+    "url": "https://dev-moe-kyawaung.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-moe-kyawaung/portfolio/issues"
+  },
+  "homepage": "https://dev-moe-kyawaung.github.io",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^6.1.0"
+  }
+}
