@@ -1,0 +1,43 @@
+# robots.txt
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin/private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap.xml
+
+# Crawl-delay for respectful crawling
+# Crawl-delay: 1
+
+# Google Search Console specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo specific
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex specific
+User-agent: Yandex
+Allow: /
+
+# Block bad bots (optional)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
